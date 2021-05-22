@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ .main {
+    height: 100vh;
+  }
+ 
+
+ .login{
+     padding: 30px;
+   
+    border: 1px solid grey;
+   
+ }
+
+
+
+.form-row{
+    width:50%;
+}
+
+
+
+@media screen and (max-width:768px){
+    .form-row{
+        width:100%;
+    }
+}
+
+
+ .form-container{
+   display: flex;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+ }

@@ -1,8 +1,30 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
+import Clock from "./Components/Clock";
+import Sidebar from "./Components/Sidebar";
+import { WebCallClass } from "./Components/WebCallClass";
+import ClasaMaterie from "./Screens/ClasaMaterie";
+import Login from "./Screens/Login";
+import Proiect from "./Screens/Proiect";
+import Main from "./Screens/Main";
+import MainProf from "./Screens/MainProf";
+import DetaliiCont from "./Screens/DetaliiCont";
+import MaterieProf from "./Screens/MaterieProf";
+import ListaStudProiect from "./Screens/ListaStudProiect";
 
-test('renders learn react link', () => {
+test("renders learn react link", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // render(<Clock />);
+  // render(<Sidebar />);
+  // render(<WebCallClass />);
+  // render(<ClasaMaterie />);
+  // render(<Login />);
+  // render(<Proiect />);
+  // render(<Main />);
+  // render(<MainProf />);
+  // render(<DetaliiCont />);
+  // render(<MaterieProf />);
+  // render(<ListaStudProiect />);
+  // const linkElement = screen.getByText(/learn react/i);
+  // expect(linkElement).toBeInTheDocument();
 });

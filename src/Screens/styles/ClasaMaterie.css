@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+
+  .acordion-body {
+      height: 150px;
+  }
+
+  .small-card{
+      width: 150px;
+      height: 120px;
+      
+  }
+
+  .file-link{
+      padding-top: 10px;
+  }
