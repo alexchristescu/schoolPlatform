@@ -1,0 +1,1 @@
+SELECT materii.id, materii.denumire,materii.descriere FROM materii JOIN ani on materii.IdAn=ani.ID  WHERE IdAn =  "1"

@@ -1,0 +1,1 @@
+{"ID":"1","Nume":"Lorena","Prenume":"Popa","UserId":"4","Email":"l.popa@mail.com","IdProfesor":"1","IdMaterie":"1"}
